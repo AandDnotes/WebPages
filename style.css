@@ -1,0 +1,65 @@
+html {
+    background: #c0a154 url("images/Creme_browserbg.jpg");
+    }
+body {
+    font-size: 12pt;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   }
+#top{
+    margin: auto;
+    background-color: ivory;
+    border-radius: 25px 25px 0px 0px;
+    width: 900px; height: 80px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 10px 0px 0px 0px;
+    }
+#middle{
+    margin: auto;
+    background-color: ivory;
+    width: 900px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 10px 0px 10px 0px;
+    }
+#bottom{
+    margin: auto;
+    background-color: ivory;
+    border-radius: 0px 0px 25px 25px;
+    width: 900px; height: 60px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 10px 0px 0px 0px;
+    }
+#content{
+    margin: 0px 20px 0px 20px;
+}
+#line{
+    stroke: grey;
+    stroke-width: 2;
+    fill: none;
+}
+h1 {
+    font-size: 300%;
+    color: maroon;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+   }
+h2 {
+    font-size: 200%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+   }
+h3 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.0em;
+    margin-bottom: 0.5em;
+   }
+#photo {
+    box-shadow: 10px 10px 5px #888888;
+}
