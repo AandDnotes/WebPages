@@ -1,0 +1,40 @@
+body {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background-color: rgb(70, 0, 0);
+    line-height: 1.2em;
+    margin-left: 8em;
+    margin-right: 2em;
+    background-image: url("images/cherub_overlay65.jpg"); background-repeat: no-repeat; background-position: center top;
+    width: 700px;
+    margin: auto;
+    padding-left: 100px;
+   }
+h1 {
+    font-size: 300%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.2em;
+    margin-bottom: 1.0em;
+    text-shadow: 2px 2px 4px #FFFFFF;
+   }
+h2 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 1.0em;
+   }
+h3 {
+    font-size: 120%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+    }
+p  {width: inherit;
+    padding-right: 100px;
+    }
