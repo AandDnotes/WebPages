@@ -1,0 +1,40 @@
+html {
+    background-color: transparent;
+    background-image: url("Home_files/tile_watercolor_background.jpg");
+    }
+body {
+    margin: auto;
+    width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   }
+h1 {
+    font-size: 200%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.2em;
+    margin-bottom: 1.0em;
+   }
+h2 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 1.0em;
+   }
+h3 {
+    font-size: 120%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+    }
+p  {width: inherit;
+    padding-right: 100px;
+    }
