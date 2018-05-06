@@ -1,0 +1,41 @@
+html {
+    background-color: dimgray;
+    background-image: url("images/pinstripe.jpg");
+    background-size: 900px 63px;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    }
+body {
+    margin: auto;
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   }
+h1 {
+    font-size: 300%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.7em;
+    margin-bottom: 1.0em;
+   }
+h2 {
+    font-size: 200%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+   }
+h3 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+   }Trips
