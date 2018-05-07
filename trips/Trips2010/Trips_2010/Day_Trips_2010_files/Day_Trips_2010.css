@@ -1,0 +1,449 @@
+.paragraph_style {
+    color: #000000;
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_1 {
+    color: #800000;
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStrokeSkipFillSkipOpacity {
+}
+.style_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_SkipStroke_4 {
+    background: #ffffff;
+    opacity: 1.00;
+}
+.paragraph_style_2 {
+    color: #000000;
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.Body {
+    color: #000000;
+    font-family: 'Baskerville', 'Times New Roman', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.graphic_generic_title_textbox_style_default_SkipStrokeSkipFillSkipOpacity {
+}
+.graphic_image_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+.graphic_shape_layout_style_default_External_300_224 {
+    position: relative;
+}
+.graphic_shape_layout_style_default {
+    padding: 4px;
+}
+.graphic_shape_layout_style_default_External_225_297 {
+    position: relative;
+}
+.graphic_shape_style_default_SkipStroke {
+    background: #d1ba7b;
+    opacity: 1.00;
+}
+.graphic_textbox_layout_style_default_External_205_26 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default {
+    padding: 4px;
+}
+.graphic_textbox_layout_style_default_External_287_189 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_320_236 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_292_180 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_268_181 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_333_163 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_281_133 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_236_180 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_106_26 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_292_164 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_270_164 {
+    position: relative;
+}
+.graphic_textbox_layout_style_default_External_100_100 {
+    position: relative;
+}
+.graphic_textbox_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
+a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget3 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget14 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget6 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.spacer {
+    font-size: 1px;
+    line-height: 1px;
+}
+#widget14 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget5 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget8 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget11 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget0 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget16 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget7 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget9 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget1 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget8 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget8 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget18 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget16 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget12 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget12 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget5 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget11 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget17 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget15 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget18 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget2 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget4 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget13 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget0 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget13 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget7 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget18 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget7 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget13 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget3 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget16 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget15 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget4 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget10 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget0 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget10 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget14 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget6 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget1 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget17 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget1 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.bumper {
+    font-size: 1px;
+    line-height: 1px;
+}
+#widget9 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget2 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget9 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget4 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget10 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget15 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget3 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget6 a {
+    color: #463c3c;
+    text-decoration: underline;
+}
+#widget12 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget2 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget5 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#widget17 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+#widget11 a:visited {
+    color: #666666;
+    text-decoration: underline;
+}
+body { 
+    -webkit-text-size-adjust: none;
+}
+div { 
+    overflow: visible; 
+}
+img { 
+    border: none; 
+}
+.InlineBlock { 
+    display: inline; 
+}
+.InlineBlock { 
+    display: inline-block; 
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom:0.3em;
+}
+.vertical-align-middle-middlebox {
+    display: table;
+}
+.vertical-align-middle-innerbox {
+    display: table-cell;
+    vertical-align: middle;
+}
+div.paragraph {
+    position: relative;
+}
+li.full-width {
+    width: 100;
+}
