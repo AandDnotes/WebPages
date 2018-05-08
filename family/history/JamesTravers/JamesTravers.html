@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>James/Travers</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>James/Travers Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 650px;">
+                <svg id="mySVG" style="position: absolute; top: 140px; width: 900px; height: 400px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- up arrows -->
+                <div style="position: absolute; top: 70px;">
+                    <p style="position: absolute; left: 275px; text-align: center; color: grey">James/? tree</p>
+                    <a href=""><img style="position: absolute; left: 305px; top: 60px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                    <p style="position: absolute; left: 475px; text-align: center; color: grey">Travers/? tree</p>
+                    <a href=""><img style="position: absolute; left: 505px; top: 60px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                </div>
+                <!-- Photos -->
+                <div style="position: absolute; top: 190px;">
+                    <a href="BillLucy/BillLucy.html"><img id="photo" style="position: absolute; left: 290px; width: 82px; height: 100px;" src="images/WilliamJames.jpg"></a>
+                    <a href="BillLucy/BillLucy.html"><img id="photo" style="position: absolute; left: 490px; width: 82px; height: 100px;" src="images/LucyJames.jpg"></a>
+                    <p style="position: absolute; top: 40px; left: 380px; width: 100px; text-align: center; font-size: 75%;">Married 7th April 1912</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 290px; left: 250px; width: 180px;">
+                    <p style="text-align: center;">William George James (1894 - 1984)</p>
+                </div>
+                <div style="position: absolute; top: 290px; left: 450px; width: 180px;">
+                    <p style="text-align: center;">Lucy Elizabeth James (nee Travers) (1993 - 19xx)</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(390, 100, 80);
+                    createLineRight(430, 220, 400);
+                    createLineLeft(430, 220, 380);
+                    createLineV(430, 220, 20);
+                    createDownCurveLeft(190, 230);
+                    createDownCurveLeft(322, 230);
+                    createDownCurveRight(554, 230);
+                    createDownCurveRight(696, 230);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 400px;">
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 5px; width: 82px; height: 100px;" src="images/BillJames.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 135px; width: 82px; height: 100px;" src="images/LucyInnes.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 265px; width: 82px; height: 100px;" src="images/DickJames.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 395px; width: 82px; height: 100px;" src="images/LilJames.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 525px; width: 82px; height: 100px;" src="images/ElsieBaker.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 655px; width: 82px; height: 100px;" src="images/JimmyJames.jpg"></a>
+                    <a href="Children/JamesTraversChildren.html"><img id="photo" style="position: absolute; left: 785px; width: 82px; height: 100px;" src="images/MickJames.jpg"></a>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 500px; left: -5px; width: 100px;">
+                    <p style="text-align: center;">Bill</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 125px; width: 100px;">
+                    <p style="text-align: center;">Lucy</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 255px; width: 100px;">
+                    <p style="text-align: center;">Dick</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 385px; width: 100px;">
+                    <p style="text-align: center;">Lil</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 515px; width: 100px;">
+                    <p style="text-align: center;">Elsie</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 645px; width: 100px;">
+                    <p style="text-align: center;">Jimmy</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 775px; width: 100px;">
+                    <p style="text-align: center;">Micky</p>
+                </div>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 550px;">
+                    <a href="../JamesLudlam/JamesLudlam.html"><img style="position: absolute; left: 670px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 650px; text-align: center; color: grey">James/Ludlam family</p>
+                    <p>In these <a href="note.html">notes</a>, Jim describes his family.</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 4th May 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>
