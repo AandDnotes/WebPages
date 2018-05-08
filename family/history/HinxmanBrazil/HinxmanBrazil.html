@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hinxman/Brazil</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>Hinxman/Brazil Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 750px;">
+                <svg id="mySVG" style="position: absolute; top: 140px; width: 700px; height: 800px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- up arrows -->
+                <div style="position: absolute; top: 50px;">
+                    <p style="position: absolute; left: 165px; text-align: center; color: grey">The Australian Hinxmans</p>
+                    <a href="../AustralianHinxmans/AustralianHinxmans.html"><img style="position: absolute; left: 175px; top: 80px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                    <p style="position: absolute; left: 345px; top: 20px; text-align: center; color: grey">Hinxman/Young family</p>
+                    <a href="../HinxmanYoung/HinxmanYoung.html"><img style="position: absolute; left: 375px; top: 80px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                    <p style="position: absolute; left: 555px; top: 20px; text-align: center; color: grey">Brazil/Irons family</p>
+                    <a href="../BrazilIrons/BrazilIrons.html"><img style="position: absolute; left: 575px; top: 80px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                </div>
+                <!-- Photos -->
+                <div style="position: absolute; top: 190px;">
+                    <img id="photo" style="position: absolute; left: 160px; width: 82px; height: 100px;" src="images/StanleyHinxman.jpg">
+                    <a href="JohnHinxman/JohnHinxman.html"><img id="photo" style="position: absolute; left: 360px; width: 82px; height: 100px;" src="images/JohnHinxman.jpg"></a>
+                    <a href="OliveHinxman/OliveHinxman.html"><img id="photo" style="position: absolute; left: 560px; width: 82px; height: 100px;" src="images/OliveHinxman.jpg"></a>
+                    <p style="position: absolute; top: 40px; left: 450px; width: 100px; text-align: center; font-size: 75%;">Married 8th June 1940</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 290px; left: 110px; width: 180px;">
+                    <p style="text-align: center;">Stanley Hinxman</p>
+                </div>
+                <div style="position: absolute; top: 290px; left: 320px; width: 180px;">
+                    <p style="text-align: center;">Alfred John Hinxman (1913 - 2003)</p>
+                </div>
+                <div style="position: absolute; top: 290px; left: 520px; width: 180px;">
+                    <p style="text-align: center;">Olive Lois Hinxman (nee Brazil) (1910 - 2011)</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(260, 100, 80);
+                    createLineH(460, 100, 80);
+                    createLineV(500, 220, 20);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 400px;">
+                    <a href="../JamesHinxman/DavidJames/DavidJames.html"><img id="photo" style="position: absolute; left: 260px; width: 82px; height: 100px;" src="images/David.jpg"></a>
+                    <a href="../JamesHinxman/AngelaJames/AngelaJames.html"><img id="photo" style="position: absolute; left: 460px; width: 82px; height: 100px;" src="images/Angela.jpg"></a>
+                    <p style="position: absolute; top: 40px; left: 350px; width: 100px; text-align: center; font-size: 75%;">Married 5th August 1972</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 500px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">David Edward James (1948 - )</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Angela Mary James (nee Hinxman) (1948 - )</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(360, 310, 80);
+                </script>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 560px;">
+                    <a href="../JamesHinxman/JamesHinxman.html"><img style="position: absolute; left: 375px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 340px; text-align: center; color: grey">James/Hinxman family</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 5th March 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>

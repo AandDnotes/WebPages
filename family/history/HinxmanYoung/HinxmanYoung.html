@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HinxmanYoungFamily</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>Hinxman/Young Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 700px;">
+                <svg id="mySVG" style="position: absolute; top: 100px; width: 900px; height: 400px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- up arrows -->
+                <div style="position: absolute; top: 70px;">
+                    <p style="position: absolute; left: 265px; text-align: center; color: grey">Hinxman Family</p>
+                    <a href="../Hinxman/Hinxman.html"><img style="position: absolute; left: 275px; top: 60px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                </div>
+                <!-- Photos -->
+                <div style="position: absolute; top: 190px;">
+                    <a href="../Hinxman/Hinxman.html"><img id="photo" style="position: absolute; left: 260px; width: 82px; height: 100px;" src="images/PercyHinxman.jpg"></a>
+                    <img id="photo" style="position: absolute; left: 460px; width: 82px; height: 100px;" src="images/RoseHinxman.jpg">
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 290px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">Percy Hinxman</p>
+                </div>
+                <div style="position: absolute; top: 290px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Rose Hinxman (nee Young)</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(360, 140, 80);
+                    createLineRight(400, 260, 90);
+                    createLineLeft(400, 260, 90);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 400px;">
+                    <img id="photo" style="position: absolute; left: 260px; width: 82px; height: 100px;" src="images/StanleyHinxman1917.jpg">
+                    <img id="photo" style="position: absolute; left: 460px; width: 82px; height: 100px;" src="images/JohnHinxman1917.jpg">
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 500px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">Stanley Hinxman</p>
+                </div>
+                <div style="position: absolute; top: 500px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Alfred John Hinxman (1913 - 2003)</p>
+                </div>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 560px;">
+                    <a href="../HinxmanBrazil/HinxmanBrazil.html"><img style="position: absolute; left: 480px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 450px; text-align: center; color: grey">Hinxman/Brazil family</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 24th March 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>
