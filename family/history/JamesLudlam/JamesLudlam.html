@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>James/Ludlam</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>James/Ludlam Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 800px;">
+                <svg id="mySVG" style="position: absolute; top: 200px; width: 700px; height: 700px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- up arrows -->
+                <div style="position: absolute; top: 40px;">
+                    <p style="position: absolute; left: 245px; text-align: center; color: grey">James/Travers family</p>
+                    <a href="../JamesTravers/JamesTravers.html"><img style="position: absolute; left: 275px; top: 50px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                    <p style="position: absolute; left: 435px; text-align: center; color: grey">Ludlam/Wilkinson family</p>
+                    <a href="../LudlamWilkinson/LudlamWilkinson.html"><img style="position: absolute; left: 475px; top: 50px; width: 50px; height: 50px;" src="../images/arrowUp.png"></a>
+                </div>
+                <!-- Photos -->
+                <div style="position: absolute; top: 150px;">
+                    <a href="JamesJames/JamesJames.html"><img id="photo" style="position: absolute; left: 260px; width: 68px; height: 100px;" src="images/JamesJames.jpg"></a>
+                    <a href="EileenJames/EileenJames.html"><img id="photo" style="position: absolute; left: 460px; width: 67px; height: 100px;" src="images/EileenJames.jpg"></a>
+                    <p style="position: absolute; top: 40px; left: 350px; width: 100px; text-align: center; font-size: 75%;">Married 6th February 1943</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 250px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">James Edward James (1923 - )</p>
+                </div>
+                <div style="position: absolute; top: 250px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Eileen May James (nee Ludlam) (1921 - 2012)</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(360, 0, 80);
+                    createLineRight(400, 120, 90);
+                    createLineLeft(400, 120, 90);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 360px;">
+                    <a href="../JamesHinxman/DavidJames/DavidJames.html"><img id="photo" style="position: absolute; left: 260px; width: 82px; height: 100px;" src="images/DavidJames.jpg"></a>
+                    <img id="photo" style="position: absolute; left: 460px; width: 75px; height: 100px;" src="images/AlanJames.jpg">
+                    <img id="photo" style="position: absolute; left: 660px; width: 75px; height: 100px;" src="images/ChristineJames.jpg">
+                    <p style="position: absolute; top: 40px; left: 550px; width: 100px; text-align: center; font-size: 75%;">Married 22nd June 1974</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 460px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">David Edward James (1948 - )</p>
+                </div>
+                <div style="position: absolute; top: 460px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Alan Robert James (1953 - )</p>
+                </div>
+                <div style="position: absolute; top: 460px; left: 620px; width: 200px;">
+                    <p style="text-align: center;">Christene James<br>(nee Beauchamp) (1952 - )</p>
+                </div>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 520px;">
+                    <a href="../JamesHinxman/JamesHinxman.html"><img style="position: absolute; left: 280px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 240px; text-align: center; color: grey">James/Hinxman family</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(560, 210, 80);
+                    createLineRight(600, 330, 90);
+                    createLineLeft(600, 330, 90);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 560px;">
+                    <img id="photo" style="position: absolute; left: 470px; width: 75px; height: 100px;" src="images/LauraGoss.jpg">
+                    <img id="photo" style="position: absolute; left: 630px; width: 133px; height: 100px;" src="images/RichardJames.jpg">
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 660px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Laura Goss<br>(nee James) (1977 - )</p>
+                </div>
+                <div style="position: absolute; top: 660px; left: 610px; width: 180px;">
+                    <p style="text-align: center;">Richard James (1979 - )</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 5th March 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>
