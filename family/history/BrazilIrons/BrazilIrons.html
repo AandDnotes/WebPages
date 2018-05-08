@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BrazilIrons</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>Brazil/Irons Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 550px;">
+                <svg id="mySVG" style="position: absolute; top: 100px; width: 900px; height: 400px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- up arrows -->
+                <!-- Photos -->
+                <div style="position: absolute; top: 50px;">
+                    <a href="HoraceBrazil/HoraceBrazil.html"><img id="photo" style="position: absolute; left: 300px; width: 82px; height: 100px;" src="images/HoraceBrazil.jpg"></a>
+                    <a href="LoisBrazil/LoisBrazil.html"><img id="photo" style="position: absolute; left: 500px; width: 82px; height: 100px;" src="images/LoisBrazil.jpg"></a>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 150px; left: 260px; width: 180px;">
+                    <p style="text-align: center;">Horace Brazil</p>
+                </div>
+                <div style="position: absolute; top: 150px; left: 460px; width: 180px;">
+                    <p style="text-align: center;">Lois Brazil (nee Irons)</p>
+                </div>
+                <script>
+                    createLineH(400, 10, 80);
+                    createLineRight(440, 100, 90);
+                    createLineLeft(440, 100, 90);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 250px;">
+                    <a href="../HinxmanBrazil/OliveHinxman/OliveHinxman.html"><img id="photo" style="position: absolute; left: 300px; width: 82px; height: 100px;" src="images/OliveBrazil.jpg"></a>
+                    <a href="GertrudeAlcock/GertrudeAlcock.html"><img id="photo" style="position: absolute; left: 500px; width: 82px; height: 100px;" src="images/GertrudeBrazil.jpg"></a>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 350px; left: 260px; width: 180px;">
+                    <p style="text-align: center;">Olive Lois Hinxman (nee Brazil) (1910 - 2011)</p>
+                </div>
+                <div style="position: absolute; top: 350px; left: 460px; width: 180px;">
+                    <p style="text-align: center;">Gertrude Alcock (nee Brazil) (1915 - 2018)</p>
+                </div>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 410px;">
+                    <a href="../HinxmanBrazil/HinxmanBrazil.html"><img style="position: absolute; left: 315px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 280px; text-align: center; color: grey">Hinxman/Brazil family</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 25th March 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>
