@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LudlamWilkinson</title>
+        <meta name="description" content="test svg in html">
+        <link rel="stylesheet" href="../style.css">
+        <script type="text/javascript" src="../functions.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="content">
+                <h1>Ludlam/Wilkinson Family</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="content" style="position: relative; height: 750px;">
+                <svg id="mySVG" style="position: absolute; top: 40px; width: 900px; height: 600px;"></svg>
+                <p>Clicking on a photo might take you to more information about that person. Clicking on an arrow will take you to another level in the family tree.</p>
+                <!-- Photos -->
+                <div style="position: absolute; top: 90px;">
+                    <a href="HarryMay/HarryMayLudlam.html"><img id="photo" style="position: absolute; left: 260px; width: 82px; height: 100px;" src="images/HarryLudlam.jpg"></a>
+                    <a href="HarryMay/HarryMayLudlam.html"><img id="photo" style="position: absolute; left: 460px; width: 82px; height: 100px;" src="images/MayLudlam.jpg"></a>
+                    <p style="position: absolute; top: 40px; left: 350px; width: 100px; text-align: center; font-size: 75%;">Married xth Xxx 19xx</p>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 190px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">Harry Alfred Ludlam (1895 - 1975)</p>
+                </div>
+                <div style="position: absolute; top: 190px; left: 420px; width: 200px;">
+                    <p style="text-align: center;">Rosina May Ludlam (nee Wilkinson) (1899 - 1999)</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(360, 100, 80);
+                    createLineRight(400, 220, 90);
+                    createLineLeft(400, 220, 90);
+                    createDashRight(400, 220, 280);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 300px;">
+                    <img id="photo" style="position: absolute; left: 100px; width: 82px; height: 100px;" src="images/JimmyJames.jpg">
+                    <a href="Children/LudlamChildren.html"><img id="photo" style="position: absolute; left: 270px; width: 82px; height: 100px;" src="images/EileenJames44.jpg"></a>
+                    <a href="Children/LudlamChildren.html"><img id="photo" style="position: absolute; left: 450px; width: 82px; height: 100px;" src="images/Vera.jpg"></a>
+                    <a href="Children/LudlamChildren.html"><img id="photo" style="position: absolute; left: 640px; width: 82px; height: 100px;" src="images/ReneHarris.jpg"></a>
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 400px; left: 50px; width: 180px;">
+                    <p style="text-align: center;">James Edward James (1923 - )</p>
+                </div>
+                <div style="position: absolute; top: 400px; left: 220px; width: 180px;">
+                    <p style="text-align: center;">Eileen May James<br>(nee Ludlam) (1921 - 2012)</p>
+                </div>
+                <div style="position: absolute; top: 400px; left: 420px; width: 180px;">
+                    <p style="text-align: center;">Vera Winefred Anderson<br>(nee Ludlam) (1927 - 2014)</p>
+                </div>
+                <div style="position: absolute; top: 400px; left: 620px; width: 180px;">
+                    <p style="text-align: center;">Irene Marie Harris<br>(nee Ludlam?) (1923 - 19xx)</p>
+                </div>
+                <!-- down arrows -->
+                <div style="position: absolute; top: 470px;">
+                    <a href="../JamesLudlam/JamesLudlam.html"><img style="position: absolute; left: 200px; width: 50px; height: 50px;" src="../images/arrowDown.png"></a>
+                    <p style="position: absolute; top: 40px; left: 180px; text-align: center; color: grey">James/Ludlam family</p>
+                </div>
+                <!-- Lines -->
+                <script>
+                    createLineH(180, 320, 80);
+                    createLineV(490, 460, 40);
+                    createLineV(680, 460, 40);
+                </script>
+                <!-- Photos -->
+                <div style="position: absolute; top: 550px;">
+                    <img id="photo" style="position: absolute; left: 450px; width: 82px; height: 100px;" src="images/BerylOwen.jpg">
+                    <img id="photo" style="position: absolute; left: 640px; width: 82px; height: 100px;" src="images/JohnHarris.jpg">
+                </div>
+                <!-- Names -->
+                <div style="position: absolute; top: 650px; left: 400px; width: 180px;">
+                    <p style="text-align: center;">Beryl Ann Housego<br>(nee Owen) (1954 - )</p>
+                </div>
+                <div style="position: absolute; top: 650px; left: 600px; width: 180px;">
+                    <p style="text-align: center;">John Harris (1956 - )</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" style="clear: both; font-size:70%">
+            <div style="margin: 0px 20px 10px 20px">
+                <hr style="border-color: maroon">
+                <p style="float: left">&copy; David James 2018 Last updated: 22nd March 2018</p>
+                <p style="float: right">Return to <a href="../familyTree.html">Our Family Tree</a></p>
+            </div>
+        </div>
+    </body>
+</html>
