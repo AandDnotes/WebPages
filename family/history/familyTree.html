@@ -29,6 +29,12 @@
                             <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
                             <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
                         </filter>
+                        <marker id="markerCircle" markerWidth="8" markerHeight="8" refX="5" refY="5">
+                            <circle cx="5" cy="5" r="3" style="stroke: none; fill:grey;"/>
+                        </marker>
+                        <marker id="markerArrow" markerWidth="13" markerHeight="13" refX="4" refY="6" orient="auto">
+                            <path d="M2,2 L4,6 L2,10 L10,6 L2,2" style="fill:grey;" />
+                        </marker>
                     </defs>
                     <polyline points="340,110,340,130,260,130,260,150" style="fill:white;stroke:grey;stroke-width:2" />
                     <polyline points="340,110,340,130,420,130,420,150" style="fill:white;stroke:grey;stroke-width:2" />
@@ -36,6 +42,10 @@
                     <polyline points="260,240,260,280" style="fill:white;stroke:grey;stroke-width:2" />
                     <polyline points="420,240,420,280" style="fill:white;stroke:grey;stroke-width:2" />
                     <polyline points="420,240,420,260,580,260,580,280" style="fill:white;stroke:grey;stroke-width:2" />
+                    <line x1="700" y1="65" x2="700" y2="325" style="stroke:grey; marker-start: url(#markerCircle); marker-end: url(#markerArrow);"/>
+                    <text x="720" y="100" fill="grey" style="writing-mode: tb;">
+                        Further into the past
+                    </text>
                     <a xlink:href="JamesHinxman/JamesHinxman.html">
                         <rect x="280" y="20" rx="20" ry="20" width="120" height="90" style="fill:wheat;stroke:grey;stroke-width:2;opacity:0.5" filter="url(#f1)"/>
                         <text x="300" y="50" fill="black" >James/
@@ -90,8 +100,8 @@
         <div id="bottom" style="clear: both; font-size:70%">
             <div style="margin: 0px 20px 10px 20px">
                 <hr style="border-color: maroon">
-                <p style="float: left">&copy; David James 2018 Last updated: 26th March 2018</p>
-                <p style="float: right">Return to <a href="http://www.angelaanddavid.talktalk.net/AngelaAndDavid/Welcome.html">Angela and David's Notes</a></p>
+                <p style="float: left">&copy; David James 2018 Last updated: 12th July 2018</p>
+                <p style="float: right">Return to <a href="../../welcome.html">Angela and David's Notes</a></p>
             </div>
         </div>
     </body>
