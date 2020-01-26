@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-size: 12pt;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background: #ffffff url(Playtime_background_yellow.jpg) repeat scroll top left;
+    line-height: 1.2em;
+    }
+div.header_01 {
+  width: 645px;
+  height: 22px;
+  left: 22px;
+  position: absolute;
+  top: 10px;
+  }
+div.header_02 {
+  background: transparent url(Kids_green_header_02.png) repeat scroll top left;
+  opacity: 1.00;
+  height: 71px;
+  left: 22px;
+  position: absolute;
+  top: 32px;
+  width: 645px;
+  z-index: 1;
+  }
+div.header_03 {
+  height: 16px;
+  left: 22px;
+  position: absolute;
+  top: 103px;
+  width: 645px;
+  z-index: 1;
+  }
+div.sun {
+  left: 495px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  }
+div.play {
+  position: relative;
+  width: 700px;
+  margin: auto;
+  }
+div.playtime_header {
+  position: relative;
+  /*left: 0px;
+  top: 70px;*/
+  width: 700px;
+  height: 20px;
+  margin-top: 30px;
+  }
+div.playtime {
+  position: relative;
+  background: transparent url(Playtime_page_bg-6.png) repeat scroll top left;
+  width: 700px;
+  padding: 130px 20px 20px 40px;
+  color: darkslategrey;
+  /*top: 90px;
+  left: 0px;*/
+  }
+div.playtime_footer {
+  position: relative;
+  }
+div.content {
+  position: relative;
+  /*top: 140px;*/
+  width: 600px;
+  z-index: 1;
+  }
+div.footer {
+  clear: both;
+  margin-left: 20px;
+  font-size:70%;
+  padding-top: 20px;
+  }
+h1 {
+    font-size: 250%;
+    color: maroon;
+    font-weight: bold;
+    padding-left: 30px;
+    /*margin-top: 1.7em;
+    margin-bottom: 1.1em;*/
+   }
+h2 {
+    font-size: 130%;
+    color: maroon;
+    font-weight: bold;
+    /*margin-top: 1.5em;
+    margin-bottom: 1.1em;*/
+   }
+   img.land {
+     float: right;
+     width: 200px;
+     box-shadow: 10px 10px 5px #888888;
+     margin: 0px 0px 20px 20px;
+   }
+   img.port {
+     float: right;
+     width: 150px;
+     box-shadow: 10px 10px 5px #888888;
+     margin: 0px 0px 20px 20px;
+   }
