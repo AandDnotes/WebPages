@@ -39,14 +39,14 @@ h2 {
     color: lightgrey;
     }
 a {
-    color: #bfbfbf;
+    color: #ffd700;
     text-decoration: none;
 }
 a:visited {
-    color: #666669;
+    color: #00bfff;
     text-decoration: none;
 }
 a:hover {
-    color: #ac1221;
+    color: #ff0000;
     text-decoration: none;
 }
