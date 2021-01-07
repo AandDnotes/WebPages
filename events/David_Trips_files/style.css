@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 body {
-    font-size: 12pt;
-    font-family: "Comic Sans MS", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    color: black;
-    background: #ffffff url(Playtime_background_yellow.jpg) repeat scroll top left;
-    line-height: 1.2em;
-    }
+  font-size: 12pt;
+  font-family: "Comic Sans MS", 'Marker Felt', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  background: #ffffff url(Playtime_background_yellow.jpg) repeat scroll top left;
+  line-height: 1.2em;
+  }
 div.header_01 {
   width: 645px;
   height: 22px;
