@@ -10,7 +10,7 @@ body {
     line-height: 1.2em;
     position: relative;
    }
-#top{
+.top{
     margin: auto;
     background-color: rgb(244, 244, 220);
     border-radius: 15px 15px 0px 0px;
@@ -18,14 +18,14 @@ body {
     box-shadow: 10px 10px 5px grey;
     padding: 30px 0px 0px 0px;
     }
-#middle{
+.middle{
     margin: auto;
     background-color: rgb(244, 244, 220);
     width: 650px;
     box-shadow: 10px 10px 5px grey;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
     }
-#bottom{
+.bottom{
     margin: auto;
     background-color: rgb(244, 244, 220);
     border-radius: 0px 0px 15px 15px;
@@ -33,7 +33,7 @@ body {
     box-shadow: 10px 10px 5px grey;
     padding: 10px 0px 0px 0px;
     }
-#box{
+.box{
     margin: 10px 10px 10px 10px;
     background-color: rgba(222, 222, 224, 0.8);
     border-style: solid;
@@ -41,14 +41,19 @@ body {
     border-color: lightgrey;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-#content{
+.content{
     margin: 0px 20px 0px 20px;
-}
-#line{
+    }
+.line{
     stroke: grey;
     stroke-width: 2;
     fill: none;
-}
+    }
+.photo {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    }
 h1 {
     font-size: 200%;
     color: maroon;
@@ -81,8 +86,3 @@ a:hover {
     color: dimgrey;
     text-decoration: none;
     }
-#photo {
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-}
