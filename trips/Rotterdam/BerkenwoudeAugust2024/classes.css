@@ -70,6 +70,7 @@
   font: var(--subheading-font);
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
+  clear: both;
 }
 .text-right {
   color: var(--onpage);
@@ -79,28 +80,54 @@
 .photol-right { /* landscape 4x3 image to the right */
   float: right;
   /*border: 1px solid #D0D0D0; /* Add a solid border */
-  width: 24rem;
+  width: 45%;
+  height: auto;
+  /*width: 24rem;*/
   /*height: 18rem;*/
   margin: 0 0 1rem 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photol-left { /* landscape 4x3 image to the left */
   float: left;
-  width: 24rem;
+  width: 45%;
+  height: auto;
+  /*width: 24rem;*/
+  /*height: 18rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-leftg { /* landscape 4x3 image to the left */
+  float: left;
+  width: 95%;
+  height: auto;
+  /*width: 24rem;*/
   /*height: 18rem;*/
   margin: 1rem 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photop-right { /* portrait 3x4 image to the right */
   float: right;
-  width: 18rem;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
   /*height: 24rem;*/
   margin: 0 0 1rem 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photop-left { /* portrait 3x4 image to the left */
   float: left;
-  width: 18rem;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
+  /*height: 24rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photop-leftg { /* portrait 3x4 image to the left */
+  float: left;
+  width: 70%;
+  height: auto;
+  /*width: 18rem;*/
   /*height: 24rem;*/
   margin: 1rem 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
