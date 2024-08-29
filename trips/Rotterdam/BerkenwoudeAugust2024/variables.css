@@ -7,11 +7,11 @@
   --heading: maroon; /* used for all headings */
   --shadow: grey; /* used for all shadows */
   /* fonts */
-  --header-font:2rem "Comic Sans MS", 'Marker Felt', sans-serif;
-  --main-font:1rem "Comic Sans MS", 'Marker Felt', sans-serif;
-  --footer-font:0.75rem "Comic Sans MS", 'Marker Felt', sans-serif;
-  --title-font:1.5rem "Comic Sans MS", 'Marker Felt', sans-serif;
-  --subheading-font: normal bold 1.5rem "Comic Sans MS", 'Marker Felt', sans-serif;
+  --header-font:normal bold 2.2rem "Comic Sans MS", sans-serif;
+  --main-font:1rem "Comic Sans MS", sans-serif;
+  --footer-font:0.75rem "Comic Sans MS", sans-serif;
+  --title-font:1.5rem "Comic Sans MS", sans-serif;
+  --subheading-font: normal bold 1.5rem "Comic Sans MS", sans-serif;
   /*  */
   /*--indent: 73px;*/
 }

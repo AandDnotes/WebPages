@@ -24,6 +24,7 @@
   background-attachment: fixed;
   background-position: 50% 0%;
   background-size: 70%;
+  /*background-size: 1000px 63px;*/
   /*min-width: 25rem; /* Don't let the content get too narrow */
   /*max-width: 60rem; /*  Don't let the content get too wide */
   padding: 0;
@@ -63,6 +64,9 @@
   padding: 1rem 0 1rem 0;
 }
 .headingclass {
+  background: var(--page);
+  color: var(--heading);
+  font: var(--header-font);
   margin-top: 2rem;
 }
 .subheadingclass {
