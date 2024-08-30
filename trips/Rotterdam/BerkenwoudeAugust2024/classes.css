@@ -23,7 +23,8 @@
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: 50% 0%;
-  background-size: 1000px 63px;
+  background-size: 70%;
+  /*background-size: 1000px 63px;*/
   /*min-width: 25rem; /* Don't let the content get too narrow */
   /*max-width: 60rem; /*  Don't let the content get too wide */
   padding: 0;
@@ -38,8 +39,8 @@
   font: var(--title-font);
   margin: auto;
   /*margin-left: var(--indent);*/
-  width: 900px;
-  padding: 2rem 2rem 0rem 1rem;
+  width: var(--width);
+  padding: 2rem 1rem 0rem 1rem;
 }
 .mainclass {
   background: var(--page);
@@ -47,8 +48,8 @@
   font: var(--main-font);
   /*margin-left: var(--indent);*/
   margin: auto;
-  width: 900px;
-  padding: 1rem 2rem 1rem 1rem;
+  width: var(--width);
+  padding: 1rem 1rem 1rem 1rem;
 }
 .footerclass {
   background: var(--page);
@@ -56,13 +57,16 @@
   font: var(--footer-font);
   /*margin-left: var(--indent);*/
   margin: auto;
-  width: 900px;
-  padding: 2rem 2rem 2rem 1rem;
+  width: var(--width);
+  padding: 2rem 1rem 2rem 1rem;
 }
 .sectionclass {
   padding: 1rem 0 1rem 0;
 }
 .headingclass {
+  background: var(--page);
+  color: var(--heading);
+  font: var(--header-font);
   margin-top: 2rem;
 }
 .subheadingclass {
@@ -70,6 +74,7 @@
   font: var(--subheading-font);
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
+  clear: both;
 }
 .text-right {
   color: var(--onpage);
@@ -79,28 +84,54 @@
 .photol-right { /* landscape 4x3 image to the right */
   float: right;
   /*border: 1px solid #D0D0D0; /* Add a solid border */
-  width: 24rem;
+  width: 50%;
+  height: auto;
+  /*width: 24rem;*/
   /*height: 18rem;*/
   margin: 0 0 1rem 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photol-left { /* landscape 4x3 image to the left */
   float: left;
-  width: 24rem;
+  width: 50%;
+  height: auto;
+  /*width: 24rem;*/
+  /*height: 18rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-leftg { /* landscape 4x3 image to the left */
+  float: left;
+  width: 100%;
+  height: auto;
+  /*width: 24rem;*/
   /*height: 18rem;*/
   margin: 1rem 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photop-right { /* portrait 3x4 image to the right */
   float: right;
-  width: 18rem;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
   /*height: 24rem;*/
   margin: 0 0 1rem 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photop-left { /* portrait 3x4 image to the left */
   float: left;
-  width: 18rem;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
+  /*height: 24rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photop-leftg { /* portrait 3x4 image to the left */
+  float: left;
+  width: 75%;
+  height: auto;
+  /*width: 18rem;*/
   /*height: 24rem;*/
   margin: 1rem 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
@@ -134,7 +165,7 @@
 }
 .grid-container {
   display: grid;
-  column-gap: 20px;
+  column-gap: 1rem;
   grid-template-columns: auto auto;
 }
 .item11 {
