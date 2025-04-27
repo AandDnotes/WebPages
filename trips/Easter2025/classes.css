@@ -1,0 +1,232 @@
+/* Apply everywhere */
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box; /* Padding and border don't make a box bigger */
+}
+/* define classes */
+
+.bodyclass {
+  width: 100%;
+  /*margin: 0rem auto;*/
+  margin: auto;
+  background: var(--background);
+  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pageclass {
+  background: var(--background);
+  background-image: url('images/pinstripe.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: 50% 0%;
+  background-size: 70%;
+  /*background-size: 1000px 63px;*/
+  /*min-width: 25rem; /* Don't let the content get too narrow */
+  /*max-width: 60rem; /*  Don't let the content get too wide */
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  /*box-shadow: 8px 8px 10px 4px var(--shadow);*/
+}
+.headerclass {
+  background: var(--page);
+  color: var(--heading);
+  font: var(--title-font);
+  margin: auto;
+  /*margin-left: var(--indent);*/
+  width: var(--width);
+  padding: 2rem 1rem 0rem 1rem;
+}
+.mainclass {
+  background: var(--page);
+  color: var(--onpage);
+  font: var(--main-font);
+  /*margin-left: var(--indent);*/
+  margin: auto;
+  width: var(--width);
+  padding: 1rem 1rem 1rem 1rem;
+}
+.footerclass {
+  background: var(--page);
+  color: var(--onpage);
+  font: var(--footer-font);
+  /*margin-left: var(--indent);*/
+  margin: auto;
+  width: var(--width);
+  padding: 2rem 1rem 2rem 1rem;
+}
+.sectionclass {
+  clear: both;
+  padding: 1rem 0 1rem 0;
+}
+.headingclass {
+  background: var(--page);
+  color: var(--heading);
+  font: var(--header-font);
+  margin-top: 2rem;
+}
+.subheadingclass {
+  color: var(--heading);
+  font: var(--subheading-font);
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.text-right {
+  color: var(--onpage);
+  font: var(--main-font);
+  float: right;
+}
+.photol-right { /* landscape 4x3 image to the right */
+  float: right;
+  /*border: 1px solid #D0D0D0; /* Add a solid border */
+  width: 50%;
+  height: auto;
+  /*width: 24rem;*/
+  /*height: 18rem;*/
+  margin: 0 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-left { /* landscape 4x3 image to the left */
+  float: left;
+  width: 50%;
+  height: auto;
+  /*width: 24rem;*/
+  /*height: 18rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-leftg { /* landscape 4x3 image to the left */
+  float: left;
+  width: 100%;
+  height: auto;
+  /*width: 24rem;*/
+  /*height: 18rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photop-right { /* portrait 3x4 image to the right */
+  float: right;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
+  /*height: 24rem;*/
+  margin: 0 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photop-left { /* portrait 3x4 image to the left */
+  float: left;
+  width: 35%;
+  height: auto;
+  /*width: 18rem;*/
+  /*height: 24rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photop-leftg { /* portrait 3x4 image to the left */
+  float: left;
+  width: 75%;
+  height: auto;
+  /*width: 18rem;*/
+  /*height: 24rem;*/
+  margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.image-left {
+  float:left;
+  width: 12rem;
+  margin: 1rem 1rem 1rem 0;
+}
+.image-right {
+  float:right;
+  width: 20rem;
+  margin: 1rem 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.image-right-s {
+  float:right;
+  width: 15rem;
+  margin: 1rem 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.image-left-nm {
+  float:left;
+  width: 12rem;
+  margin: 0 1rem 0 0;
+}
+.image-left-nms {
+  float:left;
+  width: 10rem;
+  margin: 0 1rem 0 0;
+}
+.grid-container {
+  display: grid;
+  clear: both;
+  column-gap: 1rem;
+  grid-template-columns: auto auto;
+}
+.item11 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.item12 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.item22 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.item31 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.item32 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.item41 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.item42 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.item51 {
+  grid-column: 1;
+  grid-row: 5;
+}
+.item52 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.list {
+  margin-left: 2rem;
+}
+p {
+  margin-bottom: 0.5rem;
+}
+
+/* styles for links - apply globally, so no need for a class */
+a:link {
+    color: blue;
+    text-decoration: none;
+    }
+a:visited {
+    color: green;
+    text-decoration: none;
+    }
+a:hover {
+    color: red;
+    text-decoration: none;
+    }
+a:active {
+    color: hotpink;
+    text-decoration: none;
+    }
