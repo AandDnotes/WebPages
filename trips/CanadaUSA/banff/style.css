@@ -1,0 +1,90 @@
+html {
+    background-color: dimgray;
+    background-image: url("images/pinstripe.jpg");
+    background-size: 1000px 63px;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    }
+body {
+    margin: auto;
+    width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12pt;
+    font-family: "Comic Sans MS", 'Marker Felt', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   }
+h1 {
+    font-size: 300%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.7em;
+    margin-bottom: 1.0em;
+   }
+h2 {
+    font-size: 200%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+   }
+h3 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+   }
+.map {
+   width: 32rem;
+   float: right;
+   box-shadow: 10px 10px 5px #888888;
+   margin: 20px 0px 20px 20px;
+   }
+.imgl {
+    width: 26.7rem;
+    float: left;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 20px 20px 20px 0px;
+}
+.imgr {
+    width: 26.7rem;
+    float: right;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 20px 0px 20px 20px;
+}
+.imgpr {
+    width: 19.5rem;
+    float: right;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 20px 0px 20px 20px;
+}
+.imgpl {
+    width: 19.5rem;
+    float: left;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 20px 20px 20px 0px;
+}
+.right-align {
+  text-align: right;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+    }
+a:visited {
+    color: green;
+    text-decoration: none;
+    }
+a:hover {
+    color: red;
+    text-decoration: none;
+    }
+a:active {
+    color: hotpink;
+    text-decoration: none;
+    }
