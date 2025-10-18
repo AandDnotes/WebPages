@@ -4,35 +4,14 @@ body {
     font-weight: normal;
     font-style: normal;
     color: black;
-    /*background-color: ivory;*/
     background-color: rgb(70, 0, 0);
     line-height: 1.2em;
     margin-left: 8em;
     margin-right: 2em;
-    /*background-image: url("images/cherub_overlay65.jpg"); background-repeat: no-repeat; background-position: center top;*/
+    background-image: url("images/cherub_overlay65.jpg"); background-repeat: no-repeat; background-position: center top;
     width: 700px;
     margin: auto;
-    /*padding-left: 100px;*/
-   }
-.top{
-   margin: auto;
-   background-color: rgb(255, 244, 200);
-   border-radius: 15px 15px 0px 0px;
-   width: 700px; height: 400px;
-   padding: 10px 0px 0px 50px;
-   }
-.middle{
-   margin: auto;
-   background-color: rgb(255, 244, 200);
-   width: 700px;
-   padding: 10px 0px 0px 50px;
-   }
-.bottom{
-   margin: auto;
-   background-color: rgb(255, 244, 200);
-   border-radius: 0px 0px 15px 15px;
-   width: 700px; height: 60px;
-   padding: 10px 0px 0px 50px;
+    padding-left: 100px;
    }
 h1 {
     font-size: 300%;
