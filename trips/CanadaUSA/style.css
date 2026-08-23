@@ -1,3 +1,4 @@
+/* Comment */
 html {
     background-color: dimgray;
     background-image: url("images/pinstripe.jpg");
@@ -54,7 +55,7 @@ p {
     min-height: 0;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 .gridText1 {
     grid_colunm: 1;
